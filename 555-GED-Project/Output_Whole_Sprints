@@ -1,0 +1,543 @@
+C:\Users\PC\AppData\Local\Programs\Python\Python36\python.exe C:/Users/PC/Downloads/555-GED-Project-master/555-GED-Project-master/The_Real_Project03.py
++--------+--------------------------------+--------+------------+-----+-------+-----------+-------+--------+
+|   ID   |              Name              | Gender |  Birthday  | Age | Alive |   Death   | Child | Spouse |
++--------+--------------------------------+--------+------------+-----+-------+-----------+-------+--------+
+|  @I1@  | CenterOfUniverse /Project555/  |   M    |  1960-1-1  |  60 |  True |     NA    |  @F2@ |  @F1@  |
+|  @I2@  |    NormalWife /Project555/     |   F    |  1960-1-1  |  60 |  True |     NA    |   NA  |  @F1@  |
+|  @I3@  |   NormalFather /Project555/    |   M    |     NA     |  NA |   NA  |     NA    |  @F3@ |  @F2@  |
+|  @I4@  |    NomalMother /Project555/    |   F    |     NA     |  NA |   NA  |     NA    |  @F4@ |  @F2@  |
+|  @I5@  |       US01 /Project555/        |   M    |  2030-1-1  | -10 |  True |     NA    |  @F2@ |   NA   |
+|  @I6@  |       US02 /Project555/        |   M    |  1960-1-1  |  60 |  True |     NA    |  @F2@ |  @F5@  |
+|  @I7@  |    US02Partner /Project555/    |   F    |  1960-1-1  |  60 |  True |     NA    |   NA  |  @F5@  |
+|  @I8@  |       US03 /Project555/        |   M    |  1960-1-1  |  60 | False |  1959-1-1 |  @F2@ |   NA   |
+|  @I9@  |       US08 /Project555/        |   M    | 1945-4-27  |  74 |  True |     NA    |  @F2@ |   NA   |
+| @I10@  |       US04 /Project555/        |   M    |  1960-1-1  |  60 |  True |     NA    |  @F2@ |  @F6@  |
+| @I11@  |    US04Partner /Project555/    |   F    |  1960-1-1  |  60 |  True |     NA    |   NA  |  @F6@  |
+| @I12@  |       US06 /Project555/        |   M    |  1960-1-1  |  60 | False |  1990-1-1 |  @F2@ |  @F7@  |
+| @I13@  |    US06Partner /Project555/    |   F    |  1960-1-1  |  60 |  True |     NA    |   NA  |  @F7@  |
+| @I14@  |       US17 /Project555/        |   M    |  1960-1-1  |  60 |  True |     NA    |  @F2@ |   NA   |
+| @I15@  |    US17Partner /Project555/    |   F    |  1960-1-1  |  60 |  True |     NA    |   NA  |  @F8@  |
+| @I16@  | US17ChildPartner /Project555/  |   F    | 1990-4-16  |  30 |  True |     NA    |  @F8@ |   NA   |
+| @I17@  |       US11 /Project555/        |   M    |  1960-1-1  |  60 |  True |     NA    |  @F2@ | @F11@  |
+| @I18@  |  US11SecPartner /Project555/   |   F    |  1960-1-1  |  60 |  True |     NA    |   NA  | @F10@  |
+| @I19@  |    US11Partner /Project555/    |   F    |  1960-1-1  |  60 |  True |     NA    |   NA  | @F11@  |
+| @I20@  |      US12Dad /Project555/      |   M    |     NA     |  NA | False |  1931-1-1 |   NA  |  @F4@  |
+| @I21@  |      US12Mom /Project555/      |   F    |     NA     |  NA | False |  1931-1-1 |   NA  |  @F4@  |
+| @I22@  |       US05 /Project555/        |   M    |  1960-1-1  |  60 | False |  1970-1-1 |  @F2@ | @F12@  |
+| @I23@  |    US05Partner /Project555/    |   F    |  1960-1-1  |  60 |  True |     NA    |   NA  | @F12@  |
+| @I24@  |       US072 /Project555/       |   M    |     NA     |  NA |   NA  |     NA    |   NA  |  @F3@  |
+| @I25@  |       US07 /Project555/        |   F    |     NA     |  NA |   NA  |     NA    |   NA  |  @F3@  |
+| @I26@  |      US1501 /Project555/       |   M    |     NA     |  NA |   NA  |     NA    |  @F1@ |   NA   |
+| @I27@  |      US1502 /Project555/       |   M    |     NA     |  NA |   NA  |     NA    |  @F1@ |   NA   |
+| @I28@  |      US1503 /Project555/       |   M    |     NA     |  NA |   NA  |     NA    |  @F1@ |   NA   |
+| @I29@  |      US1504 /Project555/       |   M    |     NA     |  NA |   NA  |     NA    |  @F1@ |   NA   |
+| @I30@  |      US1505 /Project555/       |   M    |     NA     |  NA |   NA  |     NA    |  @F1@ |   NA   |
+| @I31@  |      US1506 /Project555/       |   M    |     NA     |  NA |   NA  |     NA    |  @F1@ |   NA   |
+| @I32@  |      US1507 /Project555/       |   M    |     NA     |  NA |   NA  |     NA    |  @F1@ |   NA   |
+| @I33@  |      US1508 /Project555/       |   M    |     NA     |  NA |   NA  |     NA    |  @F1@ |   NA   |
+| @I34@  |      US1509 /Project555/       |   M    |     NA     |  NA |   NA  |     NA    |  @F1@ |   NA   |
+| @I35@  |      US1510 /Project555/       |   M    |     NA     |  NA |   NA  |     NA    |  @F1@ |   NA   |
+| @I36@  |      US1511 /Project555/       |   M    |     NA     |  NA |   NA  |     NA    |  @F1@ |   NA   |
+| @I37@  |      US1512 /Project555/       |   M    |     NA     |  NA |   NA  |     NA    |  @F1@ |   NA   |
+| @I38@  |      US1513 /Project555/       |   M    |     NA     |  NA |   NA  |     NA    |  @F1@ |   NA   |
+| @I39@  |      US1514 /Project555/       |   M    |     NA     |  NA |   NA  |     NA    |  @F1@ |   NA   |
+| @I40@  |      US1515 /Project555/       |   M    |     NA     |  NA |   NA  |     NA    |  @F1@ |   NA   |
+| @I41@  |      US1516 /Project555/       |   M    |     NA     |  NA |   NA  |     NA    |  @F1@ |   NA   |
+| @I42@  |    NormalSon2 /Project555/     |   M    |  1960-1-1  |  60 |  True |     NA    |  @F2@ | @F13@  |
+| @I43@  | NormalSon2Partner /Project555/ |   F    |  1960-1-1  |  60 |  True |     NA    |   NA  | @F13@  |
+| @I44@  |       US24 /Project555/        |   M    |  1990-1-1  |  30 |  True |     NA    | @F13@ | @F14@  |
+| @I45@  |    US24Partner /Project555/    |   F    |  1990-1-1  |  30 |  True |     NA    |   NA  | @F14@  |
+| @I46@  |       US242 /Project555/       |   M    |  1990-1-1  |  30 |  True |     NA    | @F13@ | @F15@  |
+| @I47@  |    US24Partner /Project555/    |   F    |  1991-1-1  |  29 |  True |     NA    |   NA  | @F15@  |
+| @I48@  |       US10 /Project555/        |   M    |  1990-1-1  |  30 |  True |     NA    | @F13@ | @F16@  |
+| @I49@  |    US10Partner /Project555/    |   F    |  1990-1-1  |  30 |  True |     NA    |   NA  | @F16@  |
+| @I50@  |       US31 /Project555/        |   M    |  1980-1-1  |  40 |  True |     NA    |  @F2@ |   NA   |
+| @I51@  |       US22 /Project555/        |   M    | 1990-3-15  |  30 |  True |     NA    | @F13@ |   NA   |
+| @I53@  |      SP3Mom /Project555/       |   F    |  1960-1-1  |  60 |  True |     NA    |  @F2@ | @F17@  |
+| @I54@  |        SP3Father /SP3/         |   M    |  1960-1-1  |  60 |  True |     NA    | @F18@ | @F17@  |
+| @I55@  |         US09Dad /SP3/          |   M    |     NA     |  NA | False |  1959-1-1 | @F19@ | @F18@  |
+| @I56@  |         US09Mom /SP3/          |   F    |     NA     |  NA | False |  1959-1-1 |   NA  | @F18@  |
+| @I57@  |      US16 /WrongLastName/      |   M    |  1960-1-1  |  60 |  True |     NA    | @F18@ |   NA   |
+| @I58@  |         US19Husb /SP3/         |   M    |  1960-1-1  |  60 |  True |     NA    | @F18@ | @F20@  |
+| @I59@  |         US19Wife /SP3/         |   F    |  1960-1-1  |  60 |  True |     NA    | @F21@ | @F20@  |
+| @I60@  |         Grandpa /SP3/          |   M    |     NA     |  NA |   NA  |     NA    |   NA  | @F19@  |
+| @I61@  |         Grandma /SP3/          |   F    |     NA     |  NA |   NA  |     NA    |   NA  | @F19@  |
+| @I62@  |        US19Father /SP3/        |   M    |  1930-1-1  |  90 |  True |     NA    | @F19@ | @F21@  |
+| @I63@  |         US20Wife /SP3/         |   F    |     NA     |  NA |   NA  |     NA    | @F21@ | @F22@  |
+| @I64@  |         US20Husb /SP3/         |   M    |     NA     |  NA |   NA  |     NA    | @F19@ | @F22@  |
+| @I65@  |           US25 /SP3/           |   M    |  1955-1-1  |  65 |  True |     NA    | @F18@ |   NA   |
+| @I66@  |           US25 /SP3/           |   M    |  1955-1-1  |  65 |  True |     NA    | @F18@ |   NA   |
+| @I67@  |         US33Husb /SP3/         |   M    |  1960-1-1  |  60 |  True |     NA    | @F18@ | @F23@  |
+| @I68@  |           US33 /SP3/           |   F    |  2010-1-1  |  10 |  True |     NA    | @F24@ | @F23@  |
+| @I69@  |         US33Dad /SP3/          |   M    |  1980-1-1  |  40 | False |  2015-1-1 |   NA  | @F24@  |
+| @I70@  |         US33Mom /SP3/          |   F    |  1980-1-1  |  40 | False |  2015-1-1 |   NA  | @F24@  |
+| @I71@  |           US34 /SP3/           |   M    |  1960-1-1  |  60 |  True |     NA    | @F18@ | @F25@  |
+| @I72@  |         US34Wife /SP3/         |   F    |  2000-1-1  |  20 |  True |     NA    |   NA  | @F25@  |
+| @I73@  |           US35 /SP3/           |   M    |  2020-4-1  |  0  |  True |     NA    | @F18@ |   NA   |
+| @I74@  |           US36 /SP3/           |   M    |  1960-1-1  |  60 | False |  2020-4-1 | @F18@ |   NA   |
+| @I75@  |         Sprint01 /SP3/         |   M    |     NA     |  NA |   NA  |     NA    | @F18@ | @F26@  |
+| @I76@  |       Sprint01Wife /SP1/       |   F    |     NA     |  NA |   NA  |     NA    | @F27@ | @F26@  |
+| @I77@  |          SP1Dad /SP1/          |   M    |     NA     |  NA |   NA  |     NA    | @F28@ | @F27@  |
+| @I78@  |          SP1Mom /SP1/          |   F    |     NA     |  NA |   NA  |     NA    |   NA  | @F27@  |
+| @I79@  |           US01 /SP1/           |   M    |  2030-1-1  | -10 |  True |     NA    | @F27@ |   NA   |
+| @I80@  |         US02Husb /SP1/         |   M    |  1960-1-1  |  60 |  True |     NA    | @F27@ | @F29@  |
+| @I81@  |         US02Wife /SP1/         |   F    |  1960-1-1  |  60 |  True |     NA    |   NA  | @F29@  |
+| @I82@  |           US04 /SP1/           |   M    |     NA     |  NA |   NA  |     NA    | @F27@ | @F30@  |
+| @I83@  |         US04Wife /SP1/         |   F    |     NA     |  NA |   NA  |     NA    |   NA  | @F30@  |
+| @I84@  |           US05 /SP1/           |   M    |  1960-1-1  |  60 | False |  1970-1-1 | @F27@ | @F31@  |
+| @I85@  |         US05Wife /SP1/         |   F    |     NA     |  NA |   NA  |     NA    |   NA  | @F31@  |
+| @I86@  |           US06 /SP1/           |   M    |  1960-1-1  |  60 | False |  1970-1-1 | @F27@ | @F32@  |
+| @I87@  |         US06Wife /SP1/         |   F    |  1960-1-1  |  60 |  True |     NA    |   NA  | @F32@  |
+| @I88@  |           US07 /SP1/           |   M    |  1800-1-1  | 220 |  True |     NA    |   NA  | @F28@  |
+| @I89@  |         Grandma /SP1/          |   F    |     NA     |  NA |   NA  |     NA    |   NA  | @F28@  |
+| @I90@  |         US18Husb /SP3/         |   M    |     NA     |  NA |   NA  |     NA    | @F18@ | @F33@  |
+| @I91@  |         US18Wife /SP3/         |   F    |     NA     |  NA |   NA  |     NA    | @F18@ | @F33@  |
+| @I92@  |           US13 /SP1/           |   M    |  1960-1-1  |  60 |  True |     NA    | @F27@ |   NA   |
+| @I93@  |          US131 /SP1/           |   M    |  1960-2-1  |  60 |  True |     NA    | @F27@ |   NA   |
+| @I94@  |       US20 /Project555/        |   M    |  1960-5-5  |  59 |  True |     NA    |  @F2@ | @F34@  |
+| @I95@  |    US20Brother /Project555/    |   M    |  1959-1-3  |  61 |  True |     NA    |  @F2@ | @F35@  |
+| @I96@  |      US2001 /Project555/       |   F    |  1983-4-8  |  37 |  True |     NA    | @F35@ | @F34@  |
+| @I97@  |   US20BrotherW /Project555/    |   F    |  1959-6-6  |  60 |  True |     NA    |   NA  | @F35@  |
+| @I98@  |       US21 /Project555/        |   M    |  1958-1-5  |  62 |  True |     NA    |  @F2@ | @F36@  |
+| @I99@  |      US2002 /Project555/       |   M    |  1980-7-3  |  39 |  True |     NA    | @F35@ | @F37@  |
+| @I100@ |    US20sister /Project555/     |   F    | 1968-12-6  |  51 |  True |     NA    |  @F2@ | @F37@  |
+| @I101@ |       US21W /Project555/       |   F    |  1961-2-8  |  59 |  True |     NA    |   NA  | @F36@  |
+| @I102@ |      US2101 /Project555/       |   F    |  1995-5-7  |  24 |  True |     NA    | @F36@ | @F38@  |
+| @I103@ |      US2102 /Project555/       |   M    |  1994-8-2  |  25 |  True |     NA    | @F36@ | @F39@  |
+| @I104@ |      US2102P /Project555/      |   M    |  1990-6-4  |  29 |  True |     NA    |   NA  | @F39@  |
+| @I105@ |      US2101P /Project555/      |   F    |  1996-8-3  |  23 |  True |     NA    |   NA  | @F38@  |
+| @I106@ |       US23 /Project555/        |   M    |  1963-1-5  |  57 |  True |     NA    |  @F2@ |   NA   |
+| @I107@ |       US23 /Project555/        |   M    |  1963-1-5  |  57 |  True |     NA    |  @F2@ |   NA   |
+| @I108@ |       US28 /Project555/        |   M    |  1966-9-6  |  53 |  True |     NA    |  @F2@ | @F40@  |
+| @I109@ |       US28 /Project555/        |   F    |  1966-4-3  |  54 |  True |     NA    |   NA  | @F40@  |
+| @I110@ |      US2801 /Project555/       |   F    |  1990-1-1  |  30 |  True |     NA    | @F40@ |   NA   |
+| @I111@ |      US2802 /Project555/       |   M    |  1991-4-2  |  29 |  True |     NA    | @F40@ |   NA   |
+| @I112@ |      US2803 /Project555/       |   F    |  1994-7-3  |  25 |  True |     NA    | @F40@ |   NA   |
+| @I113@ |      US2804 /Project555/       |   F    |  1996-8-3  |  23 |  True |     NA    | @F40@ |   NA   |
+| @I114@ |       US27 /Project555/        |   F    |  1989-4-1  |  31 |  True |     NA    |  @F2@ |   NA   |
+| @I115@ |       US37 /Project555/        |   M    | 1963-11-13 |  56 | False | 2020-3-27 |  @F2@ | @F41@  |
+| @I116@ |        US28/Project555/        |   F    |  1965-2-5  |  55 |  True |     NA    |   NA  | @F41@  |
+| @I117@ |      US3701 /Project555/       |   F    |  1987-6-3  |  32 |  True |     NA    | @F41@ |   NA   |
+| @I118@ |      US3702 /Project555/       |   M    |  1985-8-3  |  34 |  True |     NA    | @F41@ |   NA   |
+| @I119@ |       US39 /Project555/        |   F    |  1967-7-5  |  52 |  True |     NA    |  @F2@ | @F42@  |
+| @I120@ |       US28 /Project555/        |   M    |  1965-1-9  |  55 |  True |     NA    |   NA  | @F42@  |
+| @I121@ |       US38 /Project555/        |   M    |  1969-5-7  |  50 |  True |     NA    |  @F2@ |   NA   |
++--------+--------------------------------+--------+------------+-----+-------+-----------+-------+--------+
++-------+-----------+----------+------------+-------------------------------+---------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|   ID  |  Married  | Divorced | Husband ID |          Husband Name         | Wife ID |           Wife Name            |                                                                                                           Children                                                                                                          |
++-------+-----------+----------+------------+-------------------------------+---------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|  @F1@ |     NA    |    NA    |    @I1@    | CenterOfUniverse /Project555/ |   @I2@  |    NormalWife /Project555/     |                                       {'@I26@', '@I32@', '@I35@', '@I36@', '@I29@', '@I34@', '@I33@', '@I28@', '@I40@', '@I31@', '@I41@', '@I39@', '@I30@', '@I38@', '@I27@', '@I37@'}                                      |
+|  @F2@ |  1950-1-1 |    NA    |    @I3@    |   NormalFather /Project555/   |   @I4@  |    NomalMother /Project555/    | {'@I1@', '@I17@', '@I108@', '@I22@', '@I106@', '@I10@', '@I121@', '@I53@', '@I115@', '@I9@', '@I114@', '@I14@', '@I12@', '@I100@', '@I94@', '@I119@', '@I8@', '@I6@', '@I5@', '@I50@', '@I95@', '@I107@', '@I98@', '@I42@'} |
+|  @F3@ |     NA    |    NA    |   @I24@    |       US072 /Project555/      |  @I25@  |       US07 /Project555/        |                                                                                                           {'@I3@'}                                                                                                          |
+|  @F4@ |     NA    |    NA    |   @I20@    |      US12Dad /Project555/     |  @I21@  |      US12Mom /Project555/      |                                                                                                           {'@I4@'}                                                                                                          |
+|  @F5@ |  1950-1-1 |    NA    |    @I6@    |       US02 /Project555/       |   @I7@  |    US02Partner /Project555/    |                                                                                                              NA                                                                                                             |
+|  @F6@ |  1980-1-1 |    NA    |   @I10@    |       US04 /Project555/       |  @I11@  |    US04Partner /Project555/    |                                                                                                              NA                                                                                                             |
+|  @F7@ |  1980-1-1 |    NA    |   @I12@    |       US06 /Project555/       |  @I13@  |    US06Partner /Project555/    |                                                                                                              NA                                                                                                             |
+|  @F8@ | 1970-4-27 |    NA    |   @I14@    |       US17 /Project555/       |  @I15@  |    US17Partner /Project555/    |                                                                                                          {'@I16@'}                                                                                                          |
+| @F10@ |  1980-1-1 |    NA    |   @I17@    |       US11 /Project555/       |  @I18@  |  US11SecPartner /Project555/   |                                                                                                              NA                                                                                                             |
+| @F11@ |  1979-1-1 |    NA    |   @I17@    |       US11 /Project555/       |  @I19@  |    US11Partner /Project555/    |                                                                                                              NA                                                                                                             |
+| @F12@ |  1980-1-1 |    NA    |   @I22@    |       US05 /Project555/       |  @I23@  |    US05Partner /Project555/    |                                                                                                              NA                                                                                                             |
+| @F13@ | 1987-4-23 |    NA    |   @I42@    |    NormalSon2 /Project555/    |  @I43@  | NormalSon2Partner /Project555/ |                                                                                             {'@I52@', '@I48@', '@I46@', '@I44@'}                                                                                            |
+| @F14@ |  2010-1-1 |    NA    |   @I44@    |       US24 /Project555/       |  @I45@  |    US24Partner /Project555/    |                                                                                                              NA                                                                                                             |
+| @F15@ |  2010-1-1 |    NA    |   @I46@    |       US242 /Project555/      |  @I47@  |    US24Partner /Project555/    |                                                                                                              NA                                                                                                             |
+| @F16@ |  2000-1-1 |    NA    |   @I48@    |       US10 /Project555/       |  @I49@  |    US10Partner /Project555/    |                                                                                                              NA                                                                                                             |
+| @F17@ |     NA    |    NA    |   @I54@    |        SP3Father /SP3/        |  @I53@  |      SP3Mom /Project555/       |                                                                                                              NA                                                                                                             |
+| @F18@ |     NA    |    NA    |   @I55@    |         US09Dad /SP3/         |  @I56@  |         US09Mom /SP3/          |                                                         {'@I57@', '@I90@', '@I73@', '@I65@', '@I58@', '@I67@', '@I54@', '@I71@', '@I75@', '@I66@', '@I91@', '@I74@'}                                                        |
+| @F19@ |     NA    |    NA    |   @I60@    |         Grandpa /SP3/         |  @I61@  |         Grandma /SP3/          |                                                                                                 {'@I55@', '@I64@', '@I62@'}                                                                                                 |
+| @F20@ |     NA    |    NA    |   @I58@    |         US19Husb /SP3/        |  @I59@  |         US19Wife /SP3/         |                                                                                                              NA                                                                                                             |
+| @F21@ |     NA    |    NA    |   @I62@    |        US19Father /SP3/       |    NA   |               NA               |                                                                                                      {'@I63@', '@I59@'}                                                                                                     |
+| @F22@ |     NA    |    NA    |   @I64@    |         US20Husb /SP3/        |  @I63@  |         US20Wife /SP3/         |                                                                                                              NA                                                                                                             |
+| @F23@ |     NA    |    NA    |   @I67@    |         US33Husb /SP3/        |  @I68@  |           US33 /SP3/           |                                                                                                              NA                                                                                                             |
+| @F24@ |     NA    |    NA    |   @I69@    |         US33Dad /SP3/         |  @I70@  |         US33Mom /SP3/          |                                                                                                          {'@I68@'}                                                                                                          |
+| @F25@ |     NA    |    NA    |   @I71@    |           US34 /SP3/          |  @I72@  |         US34Wife /SP3/         |                                                                                                              NA                                                                                                             |
+| @F26@ |     NA    |    NA    |   @I75@    |         Sprint01 /SP3/        |  @I76@  |       Sprint01Wife /SP1/       |                                                                                                              NA                                                                                                             |
+| @F27@ |     NA    |    NA    |   @I77@    |          SP1Dad /SP1/         |  @I78@  |          SP1Mom /SP1/          |                                                                           {'@I86@', '@I76@', '@I79@', '@I84@', '@I82@', '@I93@', '@I92@', '@I80@'}                                                                          |
+| @F28@ |     NA    |    NA    |   @I88@    |           US07 /SP1/          |  @I89@  |         Grandma /SP1/          |                                                                                                          {'@I77@'}                                                                                                          |
+| @F29@ |  1955-1-1 |    NA    |   @I80@    |         US02Husb /SP1/        |  @I81@  |         US02Wife /SP1/         |                                                                                                              NA                                                                                                             |
+| @F30@ |  1990-1-1 |    NA    |   @I82@    |           US04 /SP1/          |  @I83@  |         US04Wife /SP1/         |                                                                                                              NA                                                                                                             |
+| @F31@ |  1990-1-1 |    NA    |   @I84@    |           US05 /SP1/          |  @I85@  |         US05Wife /SP1/         |                                                                                                              NA                                                                                                             |
+| @F32@ |  1965-1-1 |    NA    |   @I86@    |           US06 /SP1/          |  @I87@  |         US06Wife /SP1/         |                                                                                                              NA                                                                                                             |
+| @F33@ |     NA    |    NA    |   @I90@    |         US18Husb /SP3/        |  @I91@  |         US18Wife /SP3/         |                                                                                                              NA                                                                                                             |
+| @F34@ |     NA    |    NA    |   @I94@    |       US20 /Project555/       |  @I96@  |      US2001 /Project555/       |                                                                                                              NA                                                                                                             |
+| @F35@ |     NA    |    NA    |   @I95@    |    US20Brother /Project555/   |  @I97@  |   US20BrotherW /Project555/    |                                                                                                      {'@I99@', '@I96@'}                                                                                                     |
+| @F36@ |     NA    |    NA    |   @I98@    |       US21 /Project555/       |  @I101@ |       US21W /Project555/       |                                                                                                     {'@I103@', '@I102@'}                                                                                                    |
+| @F37@ |     NA    |    NA    |   @I99@    |      US2002 /Project555/      |  @I100@ |    US20sister /Project555/     |                                                                                                              NA                                                                                                             |
+| @F38@ |     NA    |    NA    |   @I102@   |      US2101 /Project555/      |  @I105@ |      US2101P /Project555/      |                                                                                                              NA                                                                                                             |
+| @F39@ |     NA    |    NA    |   @I103@   |      US2102 /Project555/      |  @I104@ |      US2102P /Project555/      |                                                                                                              NA                                                                                                             |
+| @F40@ |     NA    |    NA    |   @I108@   |       US28 /Project555/       |  @I109@ |       US28 /Project555/        |                                                                                           {'@I112@', '@I113@', '@I111@', '@I110@'}                                                                                          |
+| @F41@ |     NA    |    NA    |   @I115@   |       US37 /Project555/       |  @I116@ |        US28/Project555/        |                                                                                                     {'@I118@', '@I117@'}                                                                                                    |
+| @F42@ |  1984-5-3 |    NA    |   @I120@   |       US28 /Project555/       |  @I119@ |       US39 /Project555/        |                                                                                                              NA                                                                                                             |
++-------+-----------+----------+------------+-------------------------------+---------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+ERROR: US01: Individual @I5@ has a birthday 2030-1-1 occurs in the future. Birthday was set to NA.
+ERROR: US01: Individual @I73@ has a birthday 2020-4-1 occurs in the future. Birthday was set to NA.
+ERROR: US01: Individual @I74@ has a dearh date 1960-1-1 occurs in the future. Death date was set to NA.
+ERROR: US01: Individual @I79@ has a birthday 2030-1-1 occurs in the future. Birthday was set to NA.
+ERROR: US01: Individual @I115@ has a dearh date 1963-11-13 occurs in the future. Death date was set to NA.
+ERROR: US02: Individual @I6@ has a wedding date 1950-1-1 occurs before birthday 1960-1-1. Wedding date was set to NA.
+ERROR: US02: Individual @I7@ has a wedding date 1950-1-1 occurs before birthday 1960-1-1. Wedding date was set to NA.
+ERROR: US02: Individual @I80@ has a wedding date 1955-1-1 occurs before birthday 1960-1-1. Wedding date was set to NA.
+ERROR: US02: Individual @I81@ has a wedding date 1955-1-1 occurs before birthday 1960-1-1. Wedding date was set to NA.
+ERROR: US03: Individual @I8@ has a birthday 1960-1-1 that occurred after death date 1959-1-1. Birthday was set to NA.
+ERROR: US08: Individual @I9@ has a birth date 1945-4-27 that's earlier than parents' wedding date 1950-1-1. Birthday was set to NA.
+ERROR: US09: Individual @I54@ has a birthday happens 9 months after father's death.
+ERROR: US09: Individual @I54@ has a birthday after mother's death.
+ERROR: US09: Individual @I57@ has a birthday happens 9 months after father's death.
+ERROR: US09: Individual @I57@ has a birthday after mother's death.
+ERROR: US09: Individual @I58@ has a birthday happens 9 months after father's death.
+ERROR: US09: Individual @I58@ has a birthday after mother's death.
+ERROR: US09: Individual @I67@ has a birthday happens 9 months after father's death.
+ERROR: US09: Individual @I67@ has a birthday after mother's death.
+ERROR: US09: Individual @I71@ has a birthday happens 9 months after father's death.
+ERROR: US09: Individual @I71@ has a birthday after mother's death.
+ERROR: US09: Individual @I73@ has a birthday happens 9 months after father's death.
+ERROR: US09: Individual @I73@ has a birthday after mother's death.
+ERROR: US09: Individual @I74@ has a birthday happens 9 months after father's death.
+ERROR: US09: Individual @I74@ has a birthday after mother's death.
+ERROR: US16: Family @F18@ has a male child has a last name WrongLastName instead of SP3.
+ERROR: US23: Individuals @I65@ and @I66@ have the same name US25 SP3 and the same birthday 1955-1-1.
+ERROR: US23: Individuals @I106@ and @I107@ have the same name US23 Project555 and the same birthday 1963-1-5.
+US28: Siblings in family @F2@ ordered by decreasing age is @I9@ @I98@ @I95@ @I10@ @I12@ @I14@ @I17@ @I1@ @I22@ @I42@ @I53@ @I6@ @I8@ @I94@ @I106@ @I107@ @I115@ @I108@ @I119@ @I100@ @I121@ @I50@ @I114@ @I5@
+US28: Siblings in family @F18@ ordered by decreasing age is @I65@ @I66@ @I54@ @I57@ @I58@ @I67@ @I71@ @I74@ @I73@
+US28: Siblings in family @F27@ ordered by decreasing age is @I80@ @I84@ @I86@ @I92@ @I93@ @I79@
+US28: Siblings in family @F35@ ordered by decreasing age is @I99@ @I96@
+US28: Siblings in family @F36@ ordered by decreasing age is @I103@ @I102@
+US28: Siblings in family @F40@ ordered by decreasing age is @I110@ @I111@ @I112@ @I113@
+US28: Siblings in family @F41@ ordered by decreasing age is @I118@ @I117@
+ERROR: US04: Family @F6@ has a divorce date 1970-1-1 occurs before wedding date 1980-1-1. Divorce date was set to NA.
+ERROR: US04: Family @F30@ has a divorce date 1980-1-1 occurs before wedding date 1990-1-1. Divorce date was set to NA.
+ERROR: US06: Family @F7@ has a divorce date 2000-1-1 occurs after husband's @I12@ death at 1990-1-1. Divorce date was set to NA.
+ERROR: US06: Family @F32@ has a divorce date 2000-1-1 occurs after husband's @I86@ death at 1970-1-1. Divorce date was set to NA.
+ERROR: US17: Individual @I16@ is married to her father @I14@ which is illegal. Family eliminated.
+ERROR: US22: Individual @I51@ already exists and will override previous data
+Error: US25: Family @F2@ has multiple children with first name US23.
+Error: US25: Family @F18@ has multiple children with first name US25.
+INDIVIDUAL: US27: Individual ID: @I1@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I2@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I3@ is 90 years old.
+INDIVIDUAL: US27: Individual ID: @I4@ is 90 years old.
+INDIVIDUAL: US27: Individual ID: @I5@ is -10 years old.
+INDIVIDUAL: US27: Individual ID: @I6@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I7@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I8@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I9@ is 74 years old.
+INDIVIDUAL: US27: Individual ID: @I10@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I11@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I12@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I13@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I14@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I15@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I16@ is 30 years old.
+INDIVIDUAL: US27: Individual ID: @I17@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I18@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I19@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I20@ is 180 years old.
+INDIVIDUAL: US27: Individual ID: @I21@ is 170 years old.
+INDIVIDUAL: US27: Individual ID: @I22@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I23@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I24@ is 320 years old.
+INDIVIDUAL: US27: Individual ID: @I25@ is 320 years old.
+INDIVIDUAL: US27: Individual ID: @I26@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I27@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I28@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I29@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I30@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I31@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I32@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I33@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I34@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I35@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I36@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I37@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I38@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I39@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I40@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I41@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I42@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I43@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I44@ is 30 years old.
+INDIVIDUAL: US27: Individual ID: @I45@ is 30 years old.
+INDIVIDUAL: US27: Individual ID: @I46@ is 30 years old.
+INDIVIDUAL: US27: Individual ID: @I47@ is 29 years old.
+INDIVIDUAL: US27: Individual ID: @I48@ is 30 years old.
+INDIVIDUAL: US27: Individual ID: @I49@ is 30 years old.
+INDIVIDUAL: US27: Individual ID: @I50@ is 40 years old.
+INDIVIDUAL: US27: Individual ID: @I51@ is 30 years old.
+INDIVIDUAL: US27: Individual ID: @I53@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I54@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I55@ is 90 years old.
+INDIVIDUAL: US27: Individual ID: @I56@ is 90 years old.
+INDIVIDUAL: US27: Individual ID: @I57@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I58@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I59@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I60@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I61@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I62@ is 90 years old.
+INDIVIDUAL: US27: Individual ID: @I63@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I64@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I65@ is 65 years old.
+INDIVIDUAL: US27: Individual ID: @I66@ is 65 years old.
+INDIVIDUAL: US27: Individual ID: @I67@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I68@ is 10 years old.
+INDIVIDUAL: US27: Individual ID: @I69@ is 40 years old.
+INDIVIDUAL: US27: Individual ID: @I70@ is 40 years old.
+INDIVIDUAL: US27: Individual ID: @I71@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I72@ is 20 years old.
+INDIVIDUAL: US27: Individual ID: @I73@ is 0 years old.
+INDIVIDUAL: US27: Individual ID: @I74@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I75@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I76@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I77@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I78@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I79@ is -10 years old.
+INDIVIDUAL: US27: Individual ID: @I80@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I81@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I82@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I83@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I84@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I85@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I86@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I87@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I88@ is 220 years old.
+INDIVIDUAL: US27: Individual ID: @I89@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I90@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I91@ is NA years old.
+INDIVIDUAL: US27: Individual ID: @I92@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I93@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I94@ is 59 years old.
+INDIVIDUAL: US27: Individual ID: @I95@ is 61 years old.
+INDIVIDUAL: US27: Individual ID: @I96@ is 37 years old.
+INDIVIDUAL: US27: Individual ID: @I97@ is 60 years old.
+INDIVIDUAL: US27: Individual ID: @I98@ is 62 years old.
+INDIVIDUAL: US27: Individual ID: @I99@ is 39 years old.
+INDIVIDUAL: US27: Individual ID: @I100@ is 51 years old.
+INDIVIDUAL: US27: Individual ID: @I101@ is 59 years old.
+INDIVIDUAL: US27: Individual ID: @I102@ is 24 years old.
+INDIVIDUAL: US27: Individual ID: @I103@ is 25 years old.
+INDIVIDUAL: US27: Individual ID: @I104@ is 29 years old.
+INDIVIDUAL: US27: Individual ID: @I105@ is 23 years old.
+INDIVIDUAL: US27: Individual ID: @I106@ is 57 years old.
+INDIVIDUAL: US27: Individual ID: @I107@ is 57 years old.
+INDIVIDUAL: US27: Individual ID: @I108@ is 53 years old.
+INDIVIDUAL: US27: Individual ID: @I109@ is 54 years old.
+INDIVIDUAL: US27: Individual ID: @I110@ is 30 years old.
+INDIVIDUAL: US27: Individual ID: @I111@ is 29 years old.
+INDIVIDUAL: US27: Individual ID: @I112@ is 25 years old.
+INDIVIDUAL: US27: Individual ID: @I113@ is 23 years old.
+INDIVIDUAL: US27: Individual ID: @I114@ is 31 years old.
+INDIVIDUAL: US27: Individual ID: @I115@ is 56 years old.
+INDIVIDUAL: US27: Individual ID: @I116@ is 55 years old.
+INDIVIDUAL: US27: Individual ID: @I117@ is 32 years old.
+INDIVIDUAL: US27: Individual ID: @I118@ is 34 years old.
+INDIVIDUAL: US27: Individual ID: @I119@ is 52 years old.
+INDIVIDUAL: US27: Individual ID: @I120@ is 55 years old.
+INDIVIDUAL: US27: Individual ID: @I121@ is 50 years old.
+INDIVIDUAL: US29: Individual ID: @I8@, with death date 1959-01-01 00:00:00, is a person who has died.
+INDIVIDUAL: US29: Individual ID: @I12@, with death date 1990-01-01 00:00:00, is a person who has died.
+INDIVIDUAL: US29: Individual ID: @I20@, with death date 1931-01-01 00:00:00, is a person who has died.
+INDIVIDUAL: US29: Individual ID: @I21@, with death date 1931-01-01 00:00:00, is a person who has died.
+INDIVIDUAL: US29: Individual ID: @I22@, with death date 1970-01-01 00:00:00, is a person who has died.
+INDIVIDUAL: US29: Individual ID: @I55@, with death date 1959-01-01 00:00:00, is a person who has died.
+INDIVIDUAL: US29: Individual ID: @I56@, with death date 1959-01-01 00:00:00, is a person who has died.
+INDIVIDUAL: US29: Individual ID: @I69@, with death date 2015-01-01 00:00:00, is a person who has died.
+INDIVIDUAL: US29: Individual ID: @I70@, with death date 2015-01-01 00:00:00, is a person who has died.
+INDIVIDUAL: US29: Individual ID: @I74@, with death date 2020-04-01 00:00:00, is a person who has died.
+INDIVIDUAL: US29: Individual ID: @I84@, with death date 1970-01-01 00:00:00, is a person who has died.
+INDIVIDUAL: US29: Individual ID: @I86@, with death date 1970-01-01 00:00:00, is a person who has died.
+INDIVIDUAL: US29: Individual ID: @I115@, with death date 2020-03-27 00:00:00, is a person who has died.
+FAMILY: US30: Husband:@I12@ and Wife:@I13@ are married and living. 
+FAMILY: US30: Husband:@I22@ and Wife:@I23@ are married and living. 
+FAMILY: US30: Husband:@I84@ and Wife:@I85@ are married and living. 
+FAMILY: US30: Husband:@I86@ and Wife:@I87@ are married and living. 
+FAMILY: US30: Husband:@I115@ and Wife:@I116@ are married and living. 
+ERROR: FAMILY: US05: Family ID: @F12@ Marriage occur before death of either spouse.
+ERROR: FAMILY: US05: Family ID: @F31@ Marriage occur before death of either spouse.
+ERROR: INDIVIDUAL: US07: Individual ID: @I20@ Death should be less than 150 years after birth for dead people, and current date should be less than 150 years after birth for all living people
+ERROR: INDIVIDUAL: US07: Individual ID: @I21@ Death should be less than 150 years after birth for dead people, and current date should be less than 150 years after birth for all living people
+ERROR: INDIVIDUAL: US07: Individual ID: @I24@ Death should be less than 150 years after birth for dead people, and current date should be less than 150 years after birth for all living people
+ERROR: INDIVIDUAL: US07: Individual ID: @I25@ Death should be less than 150 years after birth for dead people, and current date should be less than 150 years after birth for all living people
+ERROR: INDIVIDUAL: US07: Individual ID: @I88@ Death should be less than 150 years after birth for dead people, and current date should be less than 150 years after birth for all living people
+ERROR: FAMILY: US10: Family ID: @F5@, marriage date is 1950-1-1, husband birth day is 1960-1-1, wife birth day is 1960-1-1,married before 14 years old.
+ERROR: FAMILY: US10: Family ID: @F8@, marriage date is 1970-4-27, husband birth day is 1960-1-1, wife birth day is 1960-1-1,married before 14 years old.
+ERROR: FAMILY: US10: Family ID: @F16@, marriage date is 2000-1-1, husband birth day is 1990-1-1, wife birth day is 1990-1-1,married before 14 years old.
+ERROR: FAMILY: US10: Family ID: @F29@, marriage date is 1955-1-1, husband birth day is 1960-1-1, wife birth day is 1960-1-1,married before 14 years old.
+ERROR: FAMILY: US10: Family ID: @F30@, marriage date is 1990-1-1, husband birth day is NA, wife birth day is NA,married before 14 years old.
+ERROR: FAMILY: US10: Family ID: @F31@, marriage date is 1990-1-1, husband birth day is 1960-1-1, wife birth day is NA,married before 14 years old.
+ERROR: FAMILY: US10: Family ID: @F32@, marriage date is 1965-1-1, husband birth day is 1960-1-1, wife birth day is 1960-1-1,married before 14 years old.
+ERROR: INDIVIDUAL: US31: Individual ID: @I9@, Age is 74, FamilyID is NA, who is living people over 30 but have never been married
+ERROR: INDIVIDUAL: US31: Individual ID: @I14@, Age is 60, FamilyID is NA, who is living people over 30 but have never been married
+ERROR: INDIVIDUAL: US31: Individual ID: @I16@, Age is 30, FamilyID is NA, who is living people over 30 but have never been married
+ERROR: INDIVIDUAL: US31: Individual ID: @I50@, Age is 40, FamilyID is NA, who is living people over 30 but have never been married
+ERROR: INDIVIDUAL: US31: Individual ID: @I51@, Age is 30, FamilyID is NA, who is living people over 30 but have never been married
+ERROR: INDIVIDUAL: US31: Individual ID: @I57@, Age is 60, FamilyID is NA, who is living people over 30 but have never been married
+ERROR: INDIVIDUAL: US31: Individual ID: @I65@, Age is 65, FamilyID is NA, who is living people over 30 but have never been married
+ERROR: INDIVIDUAL: US31: Individual ID: @I66@, Age is 65, FamilyID is NA, who is living people over 30 but have never been married
+ERROR: INDIVIDUAL: US31: Individual ID: @I92@, Age is 60, FamilyID is NA, who is living people over 30 but have never been married
+ERROR: INDIVIDUAL: US31: Individual ID: @I93@, Age is 60, FamilyID is NA, who is living people over 30 but have never been married
+ERROR: INDIVIDUAL: US31: Individual ID: @I106@, Age is 57, FamilyID is NA, who is living people over 30 but have never been married
+ERROR: INDIVIDUAL: US31: Individual ID: @I107@, Age is 57, FamilyID is NA, who is living people over 30 but have never been married
+ERROR: INDIVIDUAL: US31: Individual ID: @I110@, Age is 30, FamilyID is NA, who is living people over 30 but have never been married
+ERROR: INDIVIDUAL: US31: Individual ID: @I114@, Age is 31, FamilyID is NA, who is living people over 30 but have never been married
+ERROR: INDIVIDUAL: US31: Individual ID: @I117@, Age is 32, FamilyID is NA, who is living people over 30 but have never been married
+ERROR: INDIVIDUAL: US31: Individual ID: @I118@, Age is 34, FamilyID is NA, who is living people over 30 but have never been married
+ERROR: INDIVIDUAL: US31: Individual ID: @I121@, Age is 50, FamilyID is NA, who is living people over 30 but have never been married
+ERROR: INDIVIDUAL: US35: Individual ID: @I5@, birth date is 2030-01-01 00:00:00, current time is 2020-04-20 11:59:07.580288, is the people who were born in the last 30 days.
+ERROR: INDIVIDUAL: US35: Individual ID: @I73@, birth date is 2020-04-01 00:00:00, current time is 2020-04-20 11:59:07.580288, is the people who were born in the last 30 days.
+ERROR: INDIVIDUAL: US35: Individual ID: @I79@, birth date is 2030-01-01 00:00:00, current time is 2020-04-20 11:59:07.580288, is the people who were born in the last 30 days.
+ERROR: INDIVIDUAL: US36: Individual ID: @I74@, death date is 2020-04-01 00:00:00, current time is 2020-04-20 11:59:07.581285, is the people who were died in the last 30 days.
+ERROR: INDIVIDUAL: US36: Individual ID: @I115@, death date is 2020-03-27 00:00:00, current time is 2020-04-20 11:59:07.581285, is the people who were died in the last 30 days.
+ERROR: FAMILY: US37: husband ID: @I115@, death date is 2020-3-27, the spouse is @I116@, {'@I118@', '@I117@'} are the descendants of husband in a GEDCOM file who died in the last 30 days
+ERROR: INDIVIDUAL: US38: individual id is: @I9@, birth date is 1945-04-27 00:00:00, current time is 2020-04-20 11:59:07.581285, is the living people in a GEDCOM file whose birthdays occur in the next 30 days
+ERROR: INDIVIDUAL: US38: individual id is: @I16@, birth date is 1990-04-16 00:00:00, current time is 2020-04-20 11:59:07.581285, is the living people in a GEDCOM file whose birthdays occur in the next 30 days
+ERROR: INDIVIDUAL: US38: individual id is: @I96@, birth date is 1983-04-08 00:00:00, current time is 2020-04-20 11:59:07.582282, is the living people in a GEDCOM file whose birthdays occur in the next 30 days
+ERROR: INDIVIDUAL: US38: individual id is: @I109@, birth date is 1966-04-03 00:00:00, current time is 2020-04-20 11:59:07.582282, is the living people in a GEDCOM file whose birthdays occur in the next 30 days
+ERROR: INDIVIDUAL: US38: individual id is: @I111@, birth date is 1991-04-02 00:00:00, current time is 2020-04-20 11:59:07.582282, is the living people in a GEDCOM file whose birthdays occur in the next 30 days
+ERROR: INDIVIDUAL: US38: individual id is: @I114@, birth date is 1989-04-01 00:00:00, current time is 2020-04-20 11:59:07.582282, is the living people in a GEDCOM file whose birthdays occur in the next 30 days
+ERROR: US11: @I17@ committed bigamy and the second family @F11@ will be eliminated.
+ERROR: US12: @I3@ has a father who is 230 older which is more than 80 and birthday is set to NA
+ERROR: US12: @I3@ has a father who is 230 older which is more than 60 and birthday is set to NA
+ERROR: US12: @I4@ has a father who is 90 older which is more than 80 and birthday is set to NA
+ERROR: US12: @I4@ has a father who is 80 older which is more than 60 and birthday is set to NA
+ERROR: US12: @I5@ has a father who is 100 older which is more than 80 and birthday is set to NA
+ERROR: US12: @I5@ has a father who is 100 older which is more than 60 and birthday is set to NA
+ERROR: US12: @I73@ has a father who is 90 older which is more than 80 and birthday is set to NA
+ERROR: US12: @I73@ has a father who is 90 older which is more than 60 and birthday is set to NA
+ERROR: US13: @I1@ has a sibling whose birth date is too close
+ERROR: US13: @I6@ has a sibling whose birth date is too close
+ERROR: US13: @I8@ has a sibling whose birth date is too close
+ERROR: US13: @I10@ has a sibling whose birth date is too close
+ERROR: US13: @I12@ has a sibling whose birth date is too close
+ERROR: US13: @I14@ has a sibling whose birth date is too close
+ERROR: US13: @I17@ has a sibling whose birth date is too close
+ERROR: US13: @I22@ has a sibling whose birth date is too close
+ERROR: US13: @I42@ has a sibling whose birth date is too close
+ERROR: US13: @I51@ has a sibling whose birth date is too close
+ERROR: US13: @I51@ has a sibling whose birth date is too close
+ERROR: US13: @I51@ has a sibling whose birth date is too close
+ERROR: US13: @I53@ has a sibling whose birth date is too close
+ERROR: US13: @I80@ has a sibling whose birth date is too close
+ERROR: US13: @I84@ has a sibling whose birth date is too close
+ERROR: US13: @I86@ has a sibling whose birth date is too close
+ERROR: US13: @I92@ has a sibling whose birth date is too close
+ERROR: US13: @I93@ has a sibling whose birth date is too close
+ERROR: US13: @I93@ has a sibling whose birth date is too close
+ERROR: US13: @I93@ has a sibling whose birth date is too close
+ERROR: US13: @I93@ has a sibling whose birth date is too close
+ERROR: US13: @I94@ has a sibling whose birth date is too close
+ERROR: US13: @I94@ has a sibling whose birth date is too close
+ERROR: US13: @I94@ has a sibling whose birth date is too close
+ERROR: US13: @I94@ has a sibling whose birth date is too close
+ERROR: US13: @I94@ has a sibling whose birth date is too close
+ERROR: US13: @I94@ has a sibling whose birth date is too close
+ERROR: US13: @I94@ has a sibling whose birth date is too close
+ERROR: US13: @I94@ has a sibling whose birth date is too close
+ERROR: US13: @I94@ has a sibling whose birth date is too close
+ERROR: US13: @I94@ has a sibling whose birth date is too close
+ERROR: US13: @I100@ has a sibling whose birth date is too close
+ERROR: US13: @I121@ has a sibling whose birth date is too close
+ERROR: US14: @I1@ has too many siblings born at the same time
+ERROR: US14: @I6@ has too many siblings born at the same time
+ERROR: US14: @I8@ has too many siblings born at the same time
+ERROR: US14: @I10@ has too many siblings born at the same time
+ERROR: US14: @I12@ has too many siblings born at the same time
+ERROR: US14: @I14@ has too many siblings born at the same time
+ERROR: US14: @I17@ has too many siblings born at the same time
+ERROR: US14: @I22@ has too many siblings born at the same time
+ERROR: US14: @I42@ has too many siblings born at the same time
+ERROR: US14: @I53@ has too many siblings born at the same time
+ERROR: US14: @I54@ has too many siblings born at the same time
+ERROR: US14: @I57@ has too many siblings born at the same time
+ERROR: US14: @I58@ has too many siblings born at the same time
+ERROR: US14: @I67@ has too many siblings born at the same time
+ERROR: US14: @I71@ has too many siblings born at the same time
+ERROR: US14: @I74@ has too many siblings born at the same time
+ERROR: US18: @I90@ should not marry with sibling @I91@
+ERROR: US18: @I91@ should not marry with sibling @I90@
+ERROR: US18: @I102@ should not marry with sibling @I102@
+ERROR: US19: @I58@ should not marry his cousin @I59@
+ERROR: US19: @I59@ should not marry his cousin @I58@
+ERROR: US19: @I90@ should not marry his cousin @I91@
+ERROR: US19: @I91@ should not marry his cousin @I90@
+ERROR: US19: @I102@ should not marry his cousin @I102@
+ERROR: US20: @I44@ should not marry his aunt or uncle @I45@
+ERROR: US20: @I44@ should not marry his aunt or uncle @I45@
+ERROR: US20: @I46@ should not marry his aunt or uncle @I47@
+ERROR: US20: @I46@ should not marry his aunt or uncle @I47@
+ERROR: US20: @I48@ should not marry his aunt or uncle @I49@
+ERROR: US20: @I48@ should not marry his aunt or uncle @I49@
+ERROR: US20: @I55@ should not marry his aunt or uncle @I56@
+ERROR: US20: @I55@ should not marry his aunt or uncle @I56@
+ERROR: US20: @I71@ should not marry his aunt or uncle @I72@
+ERROR: US20: @I71@ should not marry his aunt or uncle @I72@
+ERROR: US20: @I77@ should not marry his aunt or uncle @I78@
+ERROR: US20: @I77@ should not marry his aunt or uncle @I78@
+ERROR: US20: @I80@ should not marry his aunt or uncle @I81@
+ERROR: US20: @I80@ should not marry his aunt or uncle @I81@
+ERROR: US20: @I82@ should not marry his aunt or uncle @I83@
+ERROR: US20: @I82@ should not marry his aunt or uncle @I83@
+ERROR: US20: @I84@ should not marry his aunt or uncle @I85@
+ERROR: US20: @I84@ should not marry his aunt or uncle @I85@
+ERROR: US20: @I86@ should not marry his aunt or uncle @I87@
+ERROR: US20: @I86@ should not marry his aunt or uncle @I87@
+ERROR: US20: @I103@ should not marry his aunt or uncle @I104@
+ERROR: US20: @I103@ should not marry his aunt or uncle @I104@
+ERROR: US21: @I102@ gender is not correct
+ERROR: US21: @I104@ gender is not correct
+ERROR: US15: Family @F1@ has ['@I26@', '@I32@', '@I35@', '@I36@', '@I37@', '@I29@', '@I34@', '@I28@', '@I40@', '@I31@', '@I41@', '@I39@', '@I30@', '@I38@', '@I27@', '@I33@'] children more than 15.
+ERROR: US15: Family @F2@ has ['@I1@', '@I17@', '@I108@', '@I22@', '@I106@', '@I10@', '@I121@', '@I53@', '@I115@', '@I9@', '@I114@', '@I14@', '@I12@', '@I100@', '@I94@', '@I119@', '@I8@', '@I6@', '@I5@', '@I50@', '@I95@', '@I107@', '@I98@', '@I42@'] children more than 15.
+ERROR: US24: family id is @F15@, husband name  is US242 /Project555/, wife name is US24Partner /Project555/, marriage date is 2010-1-1, is not unique Families By Spouses
+ERROR: US26: family id is @F8@, wife is @I15@, husband is @I14@ in family record, but in individual record, individual @I14@ is in NA family
+ERROR: US26: family id is @F10@, wife is @I18@, husband is @I17@ in family record, but in individual record, individual @I17@ is in @F11@ family
+ERROR: INDIVIDUAL: US32: birth day 1960-1-1 has multiple births ['@I1@', '@I2@', '@I6@', '@I7@', '@I8@', '@I10@', '@I11@', '@I12@', '@I13@', '@I14@', '@I15@', '@I17@', '@I18@', '@I19@', '@I22@', '@I23@', '@I42@', '@I43@', '@I53@', '@I54@', '@I57@', '@I58@', '@I59@', '@I67@', '@I71@', '@I74@', '@I80@', '@I81@', '@I84@', '@I86@', '@I87@', '@I92@']
+ERROR: INDIVIDUAL: US32: birth day 2030-1-1 has multiple births ['@I5@', '@I79@']
+ERROR: INDIVIDUAL: US32: birth day 1990-1-1 has multiple births ['@I44@', '@I45@', '@I46@', '@I48@', '@I49@', '@I110@']
+ERROR: INDIVIDUAL: US32: birth day 1980-1-1 has multiple births ['@I50@', '@I69@', '@I70@']
+ERROR: INDIVIDUAL: US32: birth day 1955-1-1 has multiple births ['@I65@', '@I66@']
+ERROR: INDIVIDUAL: US32: birth day 1996-8-3 has multiple births ['@I105@', '@I113@']
+ERROR: INDIVIDUAL: US32: birth day 1963-1-5 has multiple births ['@I106@', '@I107@']
+ERROR: INDIVIDUAL: US33: Individual ID: @I73@ is orphan, husband death date is 1959-1-1, wife death day is 1959-1-1, child's age is 0,married before 14 years old.
+ERROR: INDIVIDUAL: US33: Individual ID: @I68@ is orphan, husband death date is 2015-1-1, wife death day is 2015-1-1, child's age is 10,married before 14 years old.
+ERROR: FAMILY: US34: Family ID: @F23@, husband's age is 60, wife's age is 10, are couples who were married the older spouse was more than twice as old as the younger spouse.
+ERROR: FAMILY: US34: Family ID: @F25@, husband's age is 60, wife's age is 20, are couples who were married the older spouse was more than twice as old as the younger spouse.
+ERROR: FAMILY: US39: Family ID: @F8@, husband's ID is @I14@, wife's ID is @I15@, whose marriage anniversaries occur in the next 30 days.
+ERROR: FAMILY: US39: Family ID: @F13@, husband's ID is @I42@, wife's ID is @I43@, whose marriage anniversaries occur in the next 30 days.
+US40: User Story ID is 01, the numbers of the errors are 5
+US40: User Story ID is 02, the numbers of the errors are 4
+US40: User Story ID is 03, the numbers of the errors are 1
+US40: User Story ID is 08, the numbers of the errors are 1
+US40: User Story ID is 09, the numbers of the errors are 14
+US40: User Story ID is 16, the numbers of the errors are 1
+US40: User Story ID is 23, the numbers of the errors are 2
+US40: User Story ID is 28, the numbers of the errors are 7
+US40: User Story ID is 04, the numbers of the errors are 2
+US40: User Story ID is 06, the numbers of the errors are 2
+US40: User Story ID is 17, the numbers of the errors are 1
+US40: User Story ID is 22, the numbers of the errors are 1
+US40: User Story ID is 25, the numbers of the errors are 2
+US40: User Story ID is 27, the numbers of the errors are 120
+US40: User Story ID is 29, the numbers of the errors are 13
+US40: User Story ID is 30, the numbers of the errors are 5
+US40: User Story ID is 05, the numbers of the errors are 2
+US40: User Story ID is 07, the numbers of the errors are 5
+US40: User Story ID is 10, the numbers of the errors are 7
+US40: User Story ID is 31, the numbers of the errors are 17
+US40: User Story ID is 35, the numbers of the errors are 3
+US40: User Story ID is 36, the numbers of the errors are 2
+US40: User Story ID is 37, the numbers of the errors are 1
+US40: User Story ID is 38, the numbers of the errors are 6
+US40: User Story ID is 11, the numbers of the errors are 1
+US40: User Story ID is 12, the numbers of the errors are 8
+US40: User Story ID is 13, the numbers of the errors are 33
+US40: User Story ID is 14, the numbers of the errors are 16
+US40: User Story ID is 18, the numbers of the errors are 3
+US40: User Story ID is 19, the numbers of the errors are 5
+US40: User Story ID is 20, the numbers of the errors are 22
+US40: User Story ID is 21, the numbers of the errors are 2
+US40: User Story ID is 15, the numbers of the errors are 2
+US40: User Story ID is 24, the numbers of the errors are 1
+US40: User Story ID is 26, the numbers of the errors are 2
+US40: User Story ID is 32, the numbers of the errors are 7
+US40: User Story ID is 33, the numbers of the errors are 2
+US40: User Story ID is 34, the numbers of the errors are 2
+US40: User Story ID is 39, the numbers of the errors are 2
+
+Process finished with exit code 0
